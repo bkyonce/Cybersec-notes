@@ -7,6 +7,13 @@ uname -a will print the hostname, kernel release and version, machine hardware n
 find / -type d -name "directory_name" find a directory
 find / -type f -name "file_name" 
 find / -name "*turo*" will search for all files that have turo in the name. the added * means that there can be letters before and after it, its a wildcard in a way
+find / -name "*password*" 2>/dev/null find readable password files
+grep -R "password" /home 2>/dev/null find credential files
+there are a lot of permission denied, add a 2>/dev/null this hides all errors, DONT ADD A SLASH AT THE END
+as soon as you get access to a linux device: whoami(current user) id(shows privilegees, and groups) hostname(machine name) 
+uname -a(shows kernel and system info) cat /etc/os-release(shoows linux distro and verision) env(enviormental veriables, paths,config, secrets)
+sudo -l(shows what current user can run) ip a(shows ip) ss -tulpn(shows running network services and listening ports) ps aux(shows all running processes) ls -la /home
+whoami id hostname uname -a cat /etc/os-release env sudo -l ip a ss -tulpn ps aux ls -la /home
 there are a lot of permission denied, add a 2>/dev/null this hides all errors, DONT ADD A SLASH AT THE END
 cd - will take you back one directory
 current user echo $USER, home directory echo $HOME, shell echo $SHELL, you can also use the env command to check enviroement variables.
