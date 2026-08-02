@@ -1,0 +1,3 @@
+# Fundementals
+tips and tricks for OS and cybersec
+You are able to change the prompt of kali by "nano ~/.zshrc" | and at the bottom "PROMPT='$(hostname -I | awk "{print \$1}"):%~ %# '" then source "~/.zshrc" every time you change youre ip
