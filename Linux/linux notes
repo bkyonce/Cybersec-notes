@@ -1,3 +1,15 @@
 # Fundementals
 tips and tricks for OS and cybersec
 You are able to change the prompt of kali by "nano ~/.zshrc" | and at the bottom "PROMPT='$(hostname -I | awk "{print \$1}"):%~ %# '" then source "~/.zshrc" every time you change youre ip
+if you dont know how to use a tool either put man before it or --help after it example "man ls" "ls --help" some tools you can also use -h
+you can also use the apropos command to search for a keyword
+uname -a will print the hostname, kernel release and version, machine hardware name, and operating system
+find / -type d -name "directory_name" find a directory
+find / -type f -name "file_name" 
+find / -name "*turo*" will search for all files that have turo in the name. the added * means that there can be letters before and after it, its a wildcard in a way
+there are a lot of permission denied, add a 2>/dev/null this hides all errors, DONT ADD A SLASH AT THE END
+cd - will take you back one directory
+current user echo $USER, home directory echo $HOME, shell echo $SHELL, you can also use the env command to check enviroement variables.
+ls -la for permissions and ownerships, ls -li for index numbers so you can find things quickly, or do both. to cite a index number to a file use "find / inum 'index number'"
+when creating files or directories you can use the . to specify the path of the directory starts in your current directory
+you can use the mv command for both moving and renaming, theres also the cp command.
