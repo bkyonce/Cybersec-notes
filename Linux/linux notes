@@ -10,7 +10,6 @@ find / -name "*turo*" will search for all files that have turo in the name. the 
 find / -name "*password*" 2>/dev/null find readable password files
 grep -R "password" /home 2>/dev/null find credential files
 there are a lot of permission denied, add a 2>/dev/null this hides all errors, DONT ADD A SLASH AT THE END
-there are a lot of permission denied, add a 2>/dev/null this hides all errors, DONT ADD A SLASH AT THE END
 cd - will take you back one directory
 current user echo $USER, home directory echo $HOME, shell echo $SHELL, you can also use the env command to check enviroement variables.
 ls -la for permissions and ownerships, ls -li for index numbers so you can find things quickly, or do both. to cite a index number to a file use "find / inum 'index number'"
