@@ -15,3 +15,6 @@ current user echo $USER, home directory echo $HOME, shell echo $SHELL, you can a
 ls -la for permissions and ownerships, ls -li for index numbers so you can find things quickly, or do both. to cite a index number to a file use "find / inum 'index number'"
 when creating files or directories you can use the . to specify the path of the directory starts in your current directory
 you can use the mv command for both moving and renaming, theres also the cp command.
+if theres a command or code that you can run like python or binary the command "which <program>" will tell you the source of the code thats running
+for example "which python" is /usr/bin/python etc etc
+the command head shows the first 10 lines and tail shows the last 10.
