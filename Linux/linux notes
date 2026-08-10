@@ -17,4 +17,5 @@ when creating files or directories you can use the . to specify the path of the 
 you can use the mv command for both moving and renaming, theres also the cp command.
 if theres a command or code that you can run like python or binary the command "which <program>" will tell you the source of the code thats running
 for example "which python" is /usr/bin/python etc etc
-the command head shows the first 10 lines and tail shows the last 10.
+the command head shows the first 10 lines and tail shows the last 10. you can also use grep to filter large text files. for example ps -a | grep "ssh" will only show files with ssh
+
