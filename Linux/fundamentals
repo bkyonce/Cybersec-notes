@@ -20,5 +20,6 @@ for example "which python" is /usr/bin/python etc etc
 the command head shows the first 10 lines and tail shows the last 10. you can also use grep to filter large text files. for example ps -a | grep "ssh" will only show files with ssh
 to show listening TCP/UDP connections "ss -tulpn"  
 grep can be used to filter searching use -v to remove keywords, -c to count the amount of lines, grep "text" filename to search for a keyword, grep "text" * search all files in current diretoctory. 
-sudo apt install openssh-server -y , systemctl status ssh .
+sudo apt install openssh-server -y , systemctl status ssh . Rsync, Deja Dup, Duplicity are all commands for backups. lsof lists all open files, /etc/resolv.conf is DNS client cache
+netstat -a lists etwork connections. /var/log/auth.log is failed login attempts.
 
