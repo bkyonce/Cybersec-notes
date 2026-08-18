@@ -1,1 +1,3 @@
-
+whoami /all shows user,group memberships, privileges, and security identifier. theres also 'hostname' for hostname and systeminfo for a large summary of hardware, domain, installed, updates, last boot time etc
+in linux to access rdp use xfreerdp /v:<targetIp> /u:Username /p:Password.  Get-ChildItem (ls)  Set-Location(cd) cd $HOME (back to home directory) pws(show current directory)
+Get-ChildItem C:\ -Recurse -File -Filter "*.ps1" -ErrorAction SilentlyContinue , this is equivalent to the find command in linux. the ending hides all error messages.
